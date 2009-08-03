@@ -1,0 +1,7 @@
+Revision history for Perl extension WebService::CaptchasDotNet
+
+0.01  07.30.2009
+	- original version
+
+0.02  06.03.2009
+	- re-initialize the user agent for subsequent calls
