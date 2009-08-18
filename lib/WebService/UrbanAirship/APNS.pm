@@ -414,7 +414,7 @@ sub _craft_payload {
 
   my %args = %{shift || {}};
 
-  my $badge = delete $args{badge};
+  my $badge = eval { int delete $args{badge} };
   my $alert = delete $args{alert};
   my $sound = delete $args{sound};
 
